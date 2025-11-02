@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import random
 from collections import Counter
-from fpdf import FPDF
 import base64
 from io import BytesIO
 from datetime import datetime
@@ -1633,4 +1632,5 @@ if st.session_state.page == "main":
         """)
 
         
+
 
