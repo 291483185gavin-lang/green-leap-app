@@ -930,7 +930,6 @@ if st.session_state.page == "main":
     # -----------------------------
     elif section == "Smart Summary":
         import pandas as pd
-        from fpdf import FPDF
         from io import BytesIO
         import base64
         from datetime import datetime
@@ -1632,5 +1631,6 @@ if st.session_state.page == "main":
         """)
 
         
+
 
 
